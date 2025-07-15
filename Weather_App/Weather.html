@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Weather.css">
+</head>
+
+<body>
+
+    <div class="card">
+
+
+        <div class="btn-op">
+            <button class="op" id="themeToggle"><img src="img_icon/colour.png" alt=""></button>
+        </div>
+
+        <div class="theme-options" id="themeOptions">
+            <div class="swatch" data-theme="1"></div>
+            <div class="swatch" data-theme="2"></div>
+            <div class="swatch" data-theme="3"></div>
+            <div class="swatch" data-theme="4"></div>
+            <div class="swatch" data-theme="5"></div>
+            <div class="swatch" data-theme="6"></div>
+        </div>
+
+
+        <div class="search">
+
+            <input type="text" placeholder="Enter City Name" spellcheck="false">
+            <button><img src="img_icon/search.png" class="search-button" alt=""></button>
+
+        </div>
+
+        <div class="error">
+            <p> invalid city name</p>
+        </div>
+
+        <div class="weather">
+            <img src="img_icon/rain.png" class="weather-icon" alt="">
+            <h1 class="temp"> 20°c </h1>
+            <h2 class="city">Surat</h2>
+
+            <div class="details">
+
+                <div class="d-info">
+                    <img src="img_icon/humidity.png" alt="">
+                    <div>
+                        <p class="humidity">40%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+                <div class="d-info">
+                    <img src="img_icon/wind.png" alt="">
+                    <div>
+                        <p class="wind">12 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+    <script src="Weather.js"></script>
+</body>
+
+</html>
