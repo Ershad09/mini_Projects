@@ -19,7 +19,7 @@ function addTask(){
         li.appendChild(span)
     }
  
-      input.value = "";
+      input.value = ""; 
       saveData();
 }
 
