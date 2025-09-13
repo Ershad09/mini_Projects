@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(60, 60, 60);
+    display: flex;
+}
+
+.container{
+   top: 50%;
+   background: red;
+   margin: 2rem auto 0;
+   width: 200px;
+   height:200px;
+  justify-content: center;
+}
